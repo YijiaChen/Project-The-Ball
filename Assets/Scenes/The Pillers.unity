@@ -8421,7 +8421,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4423801274280744, guid: 1a6076d824e81a6489e6e041dc7cae15, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4423801274280744, guid: 1a6076d824e81a6489e6e041dc7cae15, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8869,6 +8869,41 @@ Prefab:
     - target: {fileID: 4326014155203078, guid: bd43e2ea7b5237d40ad674c447314391, type: 2}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_MouseLook.XSensitivity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_MouseLook.YSensitivity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_MouseLook.smoothTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_UseFovKick
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_MouseLook.clampVerticalRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_MouseLook.lockCursor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114965039569755016, guid: bd43e2ea7b5237d40ad674c447314391,
+        type: 2}
+      propertyPath: m_UseHeadBob
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd43e2ea7b5237d40ad674c447314391, type: 2}
@@ -11792,7 +11827,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11800,19 +11835,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.120858066
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.04786255
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.10123691
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98633343
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_RootOrder
@@ -11820,15 +11855,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -7.0150003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 13.222001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -12.535001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 684deaf826456864284bd0b7eb18916c, type: 3}
       propertyPath: m_LocalScale.z
