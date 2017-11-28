@@ -1,28 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-//using System;
+using System;
 using UnityEngine;
 
 public class Clock1 : MonoBehaviour {
 
-    //float degreePerHour = 30f;
-    //float degreePerMinute = 6f;
+    float degreePerHour = 30f;
+    float degreePerMinute = 6f;
     float degreePerSecond = 0f;
-    float speed = 0;
+    float speed = 6f;
 
     public Transform secondsTransform;
+    public Transform hoursTransform;
+    public Transform minutesTransform;
+
 
     private void Start() {
-        speed = Random.Range(0.1f, 6.0f);
+        degreePerSecond += speed;
+       // speed = Random.Range(0.1f, 6.0f);
     }
-    //public bool continuous;
+    public bool continuous;
 
     void Update() {
-        degreePerSecond += speed;
+       
         secondsTransform.localRotation = Quaternion.Euler(0f, degreePerSecond, 0f);
-    }
-}
-        /*if (continuous)
+        if (continuous)
         {
             UpdateContinuous();
         }
@@ -53,5 +55,4 @@ public class Clock1 : MonoBehaviour {
         secondsTransform.localRotation =
             Quaternion.Euler(0f, (float) time.TotalSeconds * degreePerSecond, 0f);
     }
-    
-}*/
+}
