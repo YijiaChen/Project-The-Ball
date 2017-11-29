@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4135926766901926}
-  - component: {fileID: 114614242539308052}
+  - component: {fileID: 114389380788938056}
   - component: {fileID: 82644301749857728}
   m_Layer: 0
   m_Name: Small Clock
@@ -1539,7 +1539,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114614242539308052
+--- !u!114 &114389380788938056
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1547,13 +1547,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1208973504553940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 523d48c7af79bb74394751bc98f7f42c, type: 3}
+  m_Script: {fileID: 11500000, guid: bd68eee95e85f7b44bcf415ef94eea61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondsTransform: {fileID: 4118543783960588}
   hoursTransform: {fileID: 4065047884031366}
   minutesTransform: {fileID: 4480281254695308}
-  secondsTransform: {fileID: 4118543783960588}
-  continuous: 1
+  continuous: 0
 --- !u!114 &114847574469021862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1567,4 +1567,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  timer: 0
   collidedMaterial: {fileID: 2100000, guid: bc99fc624c49ee640b7291e1bff50dbd, type: 2}
+  oldMaterial: {fileID: 0}
