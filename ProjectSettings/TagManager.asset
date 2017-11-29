@@ -11,6 +11,10 @@ TagManager:
   - Ender
   - The Clock
   - Level Changer
+  - clock
+  - clock5s
+  - clock10s
+  - clock15s
   layers:
   - Default
   - TransparentFX

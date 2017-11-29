@@ -6,6 +6,7 @@ public class WallPuzzle : MonoBehaviour {
 
     public List<ColorChanger> triggers;
     public List<GameObject> wallsToTurnOff;
+
 	// Use this for initialization
 	void Start () {
 		
