@@ -6,10 +6,12 @@ public class WallPuzzle : MonoBehaviour {
 
     public List<ColorChanger> triggers;
     public List<GameObject> wallsToTurnOff;
+    private GameObject aud;
+    private bool sendonce = false;
 
 	// Use this for initialization
 	void Start () {
-		
+        aud= GameObject.Find("AudioManager");
 	}
 	
 	// Update is called once per frame
@@ -27,10 +29,18 @@ public class WallPuzzle : MonoBehaviour {
 
         if (numColored == triggers.Count)
         {
+            
             // turn off the wall
             foreach (GameObject thisObject in wallsToTurnOff)
             {
                 thisObject.SetActive(false);
+                if (sendonce == false)
+                {
+                    aud.SendMessage("gateOpen");
+                    sendonce = true;
+                }
+                
+
             }
            
         }

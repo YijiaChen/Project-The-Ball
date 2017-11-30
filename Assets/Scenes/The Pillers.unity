@@ -356,6 +356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -838,6 +839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -1313,6 +1315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -1994,6 +1997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 1
   timer: 1
   collidedMaterial: {fileID: 2100000, guid: fe9262f2c5351cd418c05e4458c9dfc4, type: 2}
   oldMaterial: {fileID: 2100000, guid: 2cdcc391d1f5a2f4685f35925da0ea37, type: 2}
@@ -2243,6 +2247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -2785,6 +2790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -3054,19 +3060,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4135926766901926, guid: ab442301499c4e743a3eedc40ad73757, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.5132992
+      value: -0.51329917
       objectReference: {fileID: 0}
     - target: {fileID: 4135926766901926, guid: ab442301499c4e743a3eedc40ad73757, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.48633727
+      value: 0.4863372
       objectReference: {fileID: 0}
     - target: {fileID: 4135926766901926, guid: ab442301499c4e743a3eedc40ad73757, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.5132993
+      value: 0.5132992
       objectReference: {fileID: 0}
     - target: {fileID: 4135926766901926, guid: ab442301499c4e743a3eedc40ad73757, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.48633727
+      value: 0.4863372
       objectReference: {fileID: 0}
     - target: {fileID: 4135926766901926, guid: ab442301499c4e743a3eedc40ad73757, type: 2}
       propertyPath: m_RootOrder
@@ -4118,6 +4124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 1
   timer: 1
   collidedMaterial: {fileID: 2100000, guid: fe9262f2c5351cd418c05e4458c9dfc4, type: 2}
   oldMaterial: {fileID: 2100000, guid: 2cdcc391d1f5a2f4685f35925da0ea37, type: 2}
@@ -4698,6 +4705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 1
   timer: 1
   collidedMaterial: {fileID: 2100000, guid: fe9262f2c5351cd418c05e4458c9dfc4, type: 2}
   oldMaterial: {fileID: 2100000, guid: 2cdcc391d1f5a2f4685f35925da0ea37, type: 2}
@@ -4851,6 +4859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -5380,6 +5389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -5930,7 +5940,7 @@ Prefab:
     - target: {fileID: 114847574469021862, guid: ab442301499c4e743a3eedc40ad73757,
         type: 2}
       propertyPath: timer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114847574469021862, guid: ab442301499c4e743a3eedc40ad73757,
         type: 2}
@@ -7676,6 +7686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -7849,6 +7860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -8002,6 +8014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -8636,6 +8649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -9191,6 +9205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -9287,40 +9302,44 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 133.1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 49.72
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+    - target: {fileID: 4661497080168626, guid: 97bea8c1318f737459f27937103b7582, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1974977217169036, guid: 97bea8c1318f737459f27937103b7582, type: 2}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 97bea8c1318f737459f27937103b7582, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1803913013 stripped
 Transform:
@@ -9438,6 +9457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 1
   timer: 1
   collidedMaterial: {fileID: 2100000, guid: 235920bc7964a524a872acc47f4eafce, type: 2}
   oldMaterial: {fileID: 2100000, guid: 2cdcc391d1f5a2f4685f35925da0ea37, type: 2}
@@ -9642,6 +9662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 1
   timer: 1
   collidedMaterial: {fileID: 2100000, guid: fe9262f2c5351cd418c05e4458c9dfc4, type: 2}
   oldMaterial: {fileID: 2100000, guid: 2cdcc391d1f5a2f4685f35925da0ea37, type: 2}
@@ -9959,6 +9980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}
@@ -10689,6 +10711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: 21c5f5ae967068849b3f3b3dc6cd5106, type: 2}
   oldMaterial: {fileID: 0}

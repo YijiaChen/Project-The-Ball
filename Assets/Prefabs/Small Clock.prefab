@@ -1553,7 +1553,7 @@ MonoBehaviour:
   secondsTransform: {fileID: 4118543783960588}
   hoursTransform: {fileID: 4065047884031366}
   minutesTransform: {fileID: 4480281254695308}
-  continuous: 0
+  continuous: 1
 --- !u!114 &114847574469021862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1567,6 +1567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
+  isAWall: 0
   timer: 0
   collidedMaterial: {fileID: 2100000, guid: bc99fc624c49ee640b7291e1bff50dbd, type: 2}
   oldMaterial: {fileID: 0}
