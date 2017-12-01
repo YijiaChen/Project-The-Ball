@@ -15,6 +15,7 @@ TagManager:
   - clock5s
   - clock10s
   - clock15s
+  - end
   layers:
   - Default
   - TransparentFX
