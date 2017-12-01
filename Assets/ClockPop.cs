@@ -10,8 +10,10 @@ public class ClockPop : MonoBehaviour {
     private bool triggered = false;
     private float blobtime = 12;
     private bool everythingdone = false;
+    private GameObject audi;
     // Use this for initialization
     void Start() {
+        audi = GameObject.Find("AudioManager");
         bush.transform.localScale = new Vector3(0, 0, 0);
     }
 
@@ -40,13 +42,20 @@ public class ClockPop : MonoBehaviour {
         {
             bush.transform.localScale = new Vector3(1, 1, 1);
             everythingdone = true;
+            audi.SendMessage("pop");
         }   
     }
 
     private void OnTriggerEnter(Collider collision) {
         if (collision.gameObject.tag == "Player") {//If player touches butterfly
-            triggered = true;
-            Debug.Log("Blob poof!!");
+            if (triggered == false)
+            {
+                audi.SendMessage("shrink");
+                triggered = true;
+            }
+             
+            
+
         }
     }
 }

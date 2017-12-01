@@ -8,6 +8,8 @@ public class audio : MonoBehaviour {
     public AudioClip buzz;
     public AudioClip wallGone;
     public AudioClip click;
+    public AudioClip popsound;
+    public AudioClip shrinkSound;
 
 
 	// Use this for initialization
@@ -28,5 +30,14 @@ public class audio : MonoBehaviour {
     void gateOpen()
     {
         audi.PlayOneShot(wallGone);
+    }
+    void shrink()
+    {
+        audi.PlayOneShot(shrinkSound);
+    }
+    void pop()
+    {
+        audi.PlayOneShot(popsound);
+ 
     }
 }
