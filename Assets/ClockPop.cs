@@ -11,9 +11,11 @@ public class ClockPop : MonoBehaviour {
     private float blobtime = 12;
     private bool everythingdone = false;
     private GameObject audi;
+    public GameObject boom;
     // Use this for initialization
     void Start() {
         audi = GameObject.Find("AudioManager");
+        boom.SetActive(false);
         bush.transform.localScale = new Vector3(0, 0, 0);
     }
 
@@ -52,6 +54,7 @@ public class ClockPop : MonoBehaviour {
             {
                 audi.SendMessage("shrink");
                 triggered = true;
+                boom.SetActive(true);
             }
              
             
