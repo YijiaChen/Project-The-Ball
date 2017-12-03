@@ -19,7 +19,8 @@ public class SceneController1: MonoBehaviour
             jumpback -= Time.deltaTime;
             if (jumpback < 0)
             {
-               SceneManager.LoadScene(0, LoadSceneMode.Single);
+               SceneManager.LoadScene(2, LoadSceneMode.Single);
+               Cursor.visible = true;
             }
         }
     }

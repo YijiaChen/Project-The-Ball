@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-
+    private void Start()
+    {
+       Cursor.visible = true; 
+    }
     public void StartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log("Starting Game");
+        
     }
 
     public void RestartGame()
