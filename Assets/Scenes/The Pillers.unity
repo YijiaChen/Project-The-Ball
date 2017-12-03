@@ -3280,6 +3280,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 167.884
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19acc4fc227ba7341aee253b6ffccd5c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -13620,6 +13625,11 @@ Prefab:
       propertyPath: movementAnimation
       value: BunnyHop
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2494233c2fc67ce47a06b356a8002dd5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -14884,6 +14894,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 72.53745
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2494233c2fc67ce47a06b356a8002dd5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -18510,6 +18525,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -15.547001
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68992e5372eb6934da198b14498a0722, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -23702,6 +23722,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -15.547001
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68992e5372eb6934da198b14498a0722, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -30013,6 +30038,11 @@ Prefab:
       propertyPath: movementAnimation
       value: BunnyHop
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2494233c2fc67ce47a06b356a8002dd5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -31621,6 +31651,11 @@ Prefab:
       propertyPath: movementAnimation
       value: BunnyHop
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2494233c2fc67ce47a06b356a8002dd5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -77224,6 +77259,11 @@ Prefab:
       propertyPath: movementAnimation
       value: BunnyHop
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2494233c2fc67ce47a06b356a8002dd5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0
@@ -87234,6 +87274,11 @@ Prefab:
       propertyPath: movementAnimation
       value: BunnyHop
       objectReference: {fileID: 0}
+    - target: {fileID: 23411906297662630, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2494233c2fc67ce47a06b356a8002dd5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bb2171b1b9f5444f8a3c8d6afa3a66e, type: 2}
   m_IsPrefabParent: 0

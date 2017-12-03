@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ca6c5f00ce649d8429231fce4c5303c2
+timeCreated: 1512337403
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: mellony dry brush
+  fontNames:
+  - mellony dry brush
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 45a86880453d1414d87ef26095737950, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
